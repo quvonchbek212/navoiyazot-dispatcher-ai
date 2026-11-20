@@ -1,0 +1,23 @@
+{
+  "garage": {
+    "name": "Garaj (namuna koordinatalari)",
+    "latitude": 41.3,
+    "longitude": 69.24,
+    "radius_meters": 200
+  },
+  "plate_number": null,
+  "days": 60,
+  "analyze": true,
+  "policy": {
+    "hysteresis_meters": 30,
+    "confirmation_points": 2,
+    "confirmation_seconds": 30,
+    "max_gap_seconds": 300,
+    "stationary_speed_kph": 1,
+    "signal_timeout_seconds": 300,
+    "long_stop_minutes": 15,
+    "slow_speed_kph": 10,
+    "slow_duration_minutes": 10,
+    "stationary_radius_meters": 50
+  }
+}
